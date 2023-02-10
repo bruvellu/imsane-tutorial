@@ -7,6 +7,8 @@ toc-depth: 3
 bibliography: refs.bib
 ---
 
+![](media/sample.jpg){#fig-sample width=100%}
+
 ## Summary {#sec-summary}
 
 This tutorial shows how to make cartographic projections of fly embryos using the ImSAnE Toolbox [@Heemskerk2015-kv].
