@@ -21,7 +21,8 @@ I made some tweaks to the workflow and created scripts for batch-generating proj
 
 * **[ImSAnE](https://github.com/idse/imsane)** [@Heemskerk2015-kv]: LoPaTs modified version with onion layers.
 * **[MATLAB](https://www.mathworks.com/products/matlab.html)** [@Matlab2015-nd]: Version R2015b with active license.
-* **[ilastik](https://www.ilastik.org/)** [@Berg2019-ab]: Version 1.3.3b2. * **[ImSAnE-Fiji](https://github.com/xulman/TomancakLab)** [@Jain2020-yl]: Scripts to export data and images from ImSAnE.
+* **[ilastik](https://www.ilastik.org/)** [@Berg2019-ab]: Version 1.3.3b2.
+* **[ImSAnE-Fiji](https://github.com/xulman/TomancakLab)** [@Jain2020-yl]: Scripts to export data and images from ImSAnE.
 * **[Fiji/ImageJ](https://fiji.sc/)** [@Schindelin2012-di]: For processing and inspecting image stacks.
 
 ## Setup {#sec-setup}
