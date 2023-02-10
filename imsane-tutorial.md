@@ -200,7 +200,7 @@ This solves most of the out-of-memory issues while still using the workstations�
 - [`batch_gen.sh`](scripts/batch_gen.sh) will generate individual MATLAB files with a stripped down version of `TutorialIlastikDetectorSpherelikeFitter.m` designed to generate projections for a small batch of timepoints (default is ten timepoints).
 - Before running `batch_gen.sh`, you need to update the script’s parameters to reflect your current dataset, such as the filename and pixel resolution.
 - Importantly, if you made any changes to the MATLAB script (for example, adjusting fitting parameters), you need to update these values in the `batch_gen.sh`.
-- I find that three parallel jobs with ten timepoints each submitted every 50 min works well for the `pc16` workstations, but this can be customized.
+- I find that three parallel jobs with ten timepoints each submitted every 50 min works well for desktop workstations with ~100GB RAM, but this can be customized.
 - To run, open a terminal in the dataset folder and type `bash batch_gen.sh <timepoints>` replacing `<timepoints>` by the actual number of timepoints. There’s also an alternative way to submit, check below.
 - `batch_gen.sh` puts the MATLAB scripts into the `scripts` folder and creates a `batch_submit.sh` file in the root folder.
 - Check the `batch_submit.sh` file and run it with `bash batch_submit.sh` on a terminal. Nothing will appear in the screen, just leave it running.
